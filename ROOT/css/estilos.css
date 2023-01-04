@@ -1,0 +1,335 @@
+
+@font-face{
+    font-family: arsenica trial;
+    src: url(fuentes/ArsenicaTrial-Regular.ttf);
+}
+.header .header__nav{
+    width: 85%;
+    height: 50px;
+    float: left;
+    padding-top: 2rem;
+    text-align: right;
+}
+.header{
+   width: 100%;
+   background: rgba(255, 255, 255, 0.692);
+   height: 130px;    
+   position: fixed;
+}
+.header .header__anchor .header__logo img{
+    width: 10%;
+    height: 6.87rem;
+    float: left;
+}
+.background__contenedor{
+   background-image: url(../img/fondo\ de\ inicio.jpg);
+    width: 100%;
+    height: 800px;
+    padding-top: 0rem;
+    background-attachment: fixed;
+	background-position: center;
+}
+.button{
+    margin-left: 5%;
+    font-weight: normal;
+    color: rgb(170, 170, 170);
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flexbox; 
+    padding: 1rem 1rem;
+    text-decoration: none;
+    background-color: transparent;
+    border: 1px solid rgb(170, 170, 170);
+}
+.main__button{
+    padding-top: 40rem;
+}
+.main__button :hover{
+background-color: rgb(245, 245, 245);    
+}
+.header__nav .header__list .header__item{
+    display: inline;
+}
+.header__nav .header__list .header__item .header__anchor{
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    text-decoration: none;
+    padding-left: 2.8rem;
+    font-family: arsenica trial;
+}
+.header__nav .header__list .header__item .header__anchor:hover{
+    color: rgb(223, 223, 199);    
+}
+
+.main__textoprincipal h1{
+    text-align: center;
+    font-size: 2.18rem;
+    padding-bottom: 4.37rem;
+    padding-top: 3.75rem;
+    margin: 80px;
+    font-family: arsenica trial;
+    font-weight: normal;
+}
+.main__textoprincipal .main__líneatexto{
+    width: 200px;
+    height: 1px;
+    text-align: center;
+    margin-top: 50px;
+    background: black;
+}
+.main__textoprincipal .main__parrafo1{
+    text-align: center;
+    font-size: 1.25rem;
+    letter-spacing: 0.3rem;
+    padding-bottom: 5rem;
+    padding-top: 1.87rem;
+    font-weight: normal;
+    font-family: arsenica trial;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #f0ebe3;
+}
+.pie-pagina .pie-pagina__grupo1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 2.8rem 0rem;
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box1 figure{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box1 figure .pie-pagina__logo img{
+    width: 250px;
+    padding-right: 7rem;
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box3 h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arsenica trial;
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box2 .pie-pagina__nav .pie-pagina__list .pie-pagina__item .pie-pagina__anchor{
+    width: 290px;
+    height: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-family: arsenica trial;
+    padding-left: 0rem;
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box2 .pie-pagina__nav .pie-pagina__list .pie-pagina__item{
+    list-style: none;
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box2 .pie-pagina__nav .pie-pagina__list .pie-pagina__item .pie-pagina__anchor{
+   display: inline-flex;
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box2 .pie-pagina__nav .pie-pagina__list .pie-pagina__item :hover{
+    color: rgb(223, 223, 199); 
+ }
+ .pie-pagina .pie-pagina__grupo1 .pie-pagina__box3 .red-social a{
+    text-decoration: none;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: black;
+    margin-right: 10px;
+    background-color: rgb(207, 204, 182);
+    text-align: center;
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box3 .red-social :hover{
+    color: rgb(151, 151, 144)
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box3 .pie-pagina__frase{
+    color: black;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding-top: 2rem;
+}
+.fondocontacto p img{
+    width: 100%;
+    height: 791px;
+    left: 0px;
+    padding-top: 0px;
+}
+.nosotras__fondo { 
+    background-image: url(../img/nosotras.png);
+    width: 100%;
+    height: 1100px;
+    background-repeat: no-repeat;
+    padding-top: 0rem;
+}
+.nosotras__fondo p{
+   display: inline-block;
+    background-color: rgb(255, 255, 255); 
+    margin-left: 10%;
+    align-self: center;
+    display: flexbox; 
+    padding: 3rem 3rem;
+    margin-top: 55%;
+    margin-right: 25%;
+} 
+p strong{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+p{
+    color: black;
+    font-size: 1.25rem;
+    font-family: arsenica trial;
+    font-weight: normal;
+}
+.contacto{
+    background-image: url(../img/public\ logo\ 2.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1400px;
+}
+.contacto__mero{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.contacto__formulario{
+    padding: 15rem;
+    padding-bottom: 5rem;
+    padding-top: 7rem;
+    margin-top: 220px;
+    margin-bottom: 100px;
+}
+.contacto__formulario{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.titulocontacto{
+    font-size: 2.2rem;
+    text-align: center;
+    font-family: arsenica trial;
+}
+#name{
+    width: 100%;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.753);
+    height: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+#email{
+    width: 100%;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.753);
+    height: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+#phone{
+    width: 100%;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.753);
+    height: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+#location{
+    width: 100%;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.753);
+    height: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+#emprendimiento{
+    width: 100%;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.753);
+    height: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+#otro{
+    width: 100%;
+    border-color: transparent;
+    background-color: rgba(255, 255, 255, 0.753);
+    height: 40px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
+}
+.main__trabajos{
+    background-image: url(../img/fondo-portfolio.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 1500px;
+    background-position: center;
+    padding-top: 40rem;
+}
+.ame-img img{
+    width: 400px;
+    height: 400px;   
+}
+.trabajo__ame h1{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.tarjeta-img img{
+    width: 400px;
+    height: 400px; 
+}
+.trabajo__tarjeta h2{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.etiquetas-img img{
+    width: 400px;
+    height: 400px;  
+}
+.trabajo__etiquetas h3{
+    font-size: 1.1rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.main__trabajos{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+.main .main__servicios{
+    background-image: url(../img/fondo\ servicios.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 800px;
+}
+.presentacion__servicios img{
+    width: 580px;
+    height: 600px;
+    padding-top: 5rem;
+    margin-left: 200px;
+}
+@media screen and (max-width: 1024px) {
+    .header{
+     
+    }
+}
+    
+@media screen and (max-width: 768px) {
+    .header{
+     
+    }
+}
+    
+@media screen and (max-width: 425px) {
+   .header{
+    display: flex;
+    flex-direction: column;
+   }
+}
