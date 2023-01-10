@@ -3,6 +3,10 @@
     font-family: arsenica trial;
     src: url(fuentes/ArsenicaTrial-Regular.ttf);
 }
+.contenedor1{
+    max-width: 1920px;
+    margin: auto;
+}
 .header .header__nav{
     width: 85%;
     height: 50px;
@@ -22,7 +26,7 @@
     float: left;
 }
 .background__contenedor{
-   background-image: url(../img/fondo\ de\ inicio.jpg);
+   background-image: url(../img/fondo-inicio.png);
     width: 100%;
     height: 800px;
     padding-top: 0rem;
@@ -303,11 +307,17 @@ p{
     padding-top: 20rem;
     padding-bottom: 20rem;
 }
-.main .main__servicios{
+.main2{
+    display: grid;
+	grid-gap: 10px;
+	
+	
+}
+.main__servicios{
     background-image: url(../img/fondo\ servicios.png);
     background-repeat: no-repeat;
     width: 50%;
-    height: 800px;
+    height: 680px;
 }
 .presentacion__servicios img{
     width: 580px;
@@ -315,9 +325,87 @@ p{
     padding-top: 5rem;
     margin-left: 200px;
 }
+.texto__servicios{
+    display: flex;
+    padding-top: 15rem;
+    margin-right: 20px;
+}
+.linea__texto2{
+    width: 100px;
+    height: 1px;
+    text-align: center;
+    margin-top: 42px;
+    background: black;
+}
+.texto__introduccion h1{
+    font-family: arsenica trial;
+    font-weight: normal;
+    font-size: 3rem;
+}
+.texto__introduccion p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 2rem;
+}
+.frase{
+    margin: auto;
+    width: 100%;
+    background-color: beige;
+}
+.frase__servicios p{
+    text-align: center;
+    font-family: arsenica trial;
+    font-weight: normal;
+    font-size: 1.5rem;
+    padding-top: 2rem;
+    letter-spacing: 3px;
+    width: 411px
+}
+.linea__frase{
+    width: 100px;
+    height: 1px;
+    text-align: center;
+    background: black;
+}
+.branding__explicacion p{
+    font-size: 1.2rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.branding__explicacion h2{
+    font-family: arsenica trial;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.imagen__branding img{
+    width: 50%;
+    
+}
+
+
+
+
+
 @media screen and (max-width: 1024px) {
     .header{
-     
+        background: rgba(255, 255, 255, 0.692);
+    }
+    .header .header__anchor .header__logo img{
+        width: 10%;
+        height: 6.87rem;
+        float: left;
+    }   
+    .background__contenedor{
+        background-image: url(../img/fondo-inicio.png);
+         width: 100%;
+         height: 800px;
+         padding-top: 0rem;
+         background-attachment: fixed;
+         background-position: center;
+         background-repeat: no-repeat;
     }
 }
     
@@ -329,7 +417,194 @@ p{
     
 @media screen and (max-width: 425px) {
    .header{
+    width: auto;
+    background: rgba(255, 255, 255, 0.692);
+    display:inline-flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.header .header__anchor .header__logo img {
+ width: 100%;
+ height: 5.5rem;
+ float: right;
+}
+.background__contenedor{
+ background-image: url(../img/Recurso\ 6.png);
+  width: 100%;
+  height: 680px;
+  padding-top: 0rem;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+.header .header__nav {
+    width: 18%;
+    padding-top: 0.8rem;
+    text-align: right;
+    margin-inline: 55px;
+}
+.header__nav .header__list .header__item .header__anchor{
+ color: rgb(0, 0, 0);
+ font-size: 0.7rem;
+ text-decoration: none;
+ padding-left: 0.8rem;
+ font-family: arsenica trial;
+}
+.main__textoprincipal h1 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 2.37rem;
+    padding-top: 2.75rem;
+    margin: 57px;
+    font-family: arsenica trial;
+    font-weight: normal;
+}
+.main__textoprincipal .main__líneatexto {
+    width: 150px;
+    height: 1px;
+    text-align: center;
+    margin-top: 52px;
+    background: black;
+}
+.main__button {
+    padding-top: 35rem;
+}
+.pie-pagina .pie-pagina__grupo1 {
+     width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 2fr));
+    padding: 1.8rem 2.5rem;
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box1 figure {
+    width: 100%;
+    height: 110px;
     display: flex;
-    flex-direction: column;
-   }
+    justify-content: space-around;
+    align-items: center;
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box3 .pie-pagina__frase {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    padding-top: 2rem;
+    text-align: left;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: #f0ebe3;
+    overflow: hidden;
+}
+.pie-pagina .pie-pagina__grupo1 .pie-pagina__box2 .pie-pagina__nav .pie-pagina__list .pie-pagina__item :hover{
+    color: rgb(223, 223, 199); 
+ }
+ p strong {
+    font-size: 2.2rem;
+    font-weight: normal;
+}
+.nosotras__fondo p {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    margin-left: 10%;
+    align-self: center;
+    display: flexbox;
+    padding: 1rem 1rem;
+    margin-top: 110%;
+    margin-right: 10%;
+    text-align: center;
+}
+.nosotras__fondo {
+    background-image: url(../img/nosotras\ mobile.png);
+    width: 100%;
+    height: 950px;
+    background-repeat: no-repeat;
+    padding-top: 0rem;
+}
+.main__trabajos {
+    display: flex;
+    padding-top: 10rem;
+    justify-content: space-around;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.main__trabajos {
+    background-image: url(../img/fondo-portfolio.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 600px;
+    background-position: center;
+}
+.main2 {
+    display: grid;
+    grid-template-rows: 430px 170px 340px;
+    grid-template-columns: 220px 1fr;
+    grid-gap: 20px;
+    overflow: hidden;
+}
+.main__servicios {
+    background-image: url(../img/fondo\ servicios.png);
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 450px;
+}
+.presentacion__servicios img {
+    width: 235px;
+    height: auto;
+    padding-top: 12rem;
+    margin-left: 0px;
+}
+.texto__introduccion h1 {
+    font-family: arsenica trial;
+    font-weight: normal;
+    font-size: 2.2rem;
+}
+.texto__servicios {
+    padding-top: 10rem;
+}
+.linea__texto2 {
+    width: 60px;
+    height: 1px;
+    text-align: center;
+    margin-top: 12px;
+    background: black;
+}
+.texto__introduccion p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    text-align: center;
+    margin: auto;
+}
+.frase__servicios p{
+    text-align: center;
+    font-family: arsenica trial;
+    font-weight: normal;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    letter-spacing: 3px;
+    width: 411px
+}
+.linea__frase{
+    width: 100px;
+    height: 1px;
+    text-align: center;
+    background: black;
+}
+.frase{
+    margin: auto;
+    width: 100%;
+    background-color: beige;
+    grid-column: span 3;
+}
+.branding{
+   display: contents;
+}
+.branding__explicacion p{
+    font-size: 0.8rem;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
 }
