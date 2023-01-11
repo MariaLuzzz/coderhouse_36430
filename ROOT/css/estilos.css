@@ -3,6 +3,7 @@
     font-family: arsenica trial;
     src: url(fuentes/ArsenicaTrial-Regular.ttf);
 }
+
 .contenedor1{
     max-width: 1920px;
     margin: auto;
@@ -38,18 +39,19 @@
     font-weight: normal;
     color: rgb(170, 170, 170);
     font-size: 1.4rem;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
     display: flexbox; 
     padding: 1rem 1rem;
     text-decoration: none;
     background-color: transparent;
     border: 1px solid rgb(170, 170, 170);
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.2);
 }
 .main__button{
     padding-top: 40rem;
 }
 .main__button :hover{
-background-color: rgb(245, 245, 245);    
+background-color: rgba(245, 245, 245, 0.493);    
 }
 .header__nav .header__list .header__item{
     display: inline;
@@ -70,16 +72,16 @@ background-color: rgb(245, 245, 245);
     font-size: 2.18rem;
     padding-bottom: 4.37rem;
     padding-top: 3.75rem;
-    margin: 80px;
+    margin: 50px;
     font-family: arsenica trial;
     font-weight: normal;
 }
 .main__textoprincipal .main__líneatexto{
     width: 200px;
-    height: 1px;
-    text-align: center;
-    margin-top: 50px;
+    height: 2px;
+    margin-top: 90px;
     background: black;
+    margin-left: 580px;
 }
 .main__textoprincipal .main__parrafo1{
     text-align: center;
@@ -110,8 +112,9 @@ background-color: rgb(245, 245, 245);
     align-items: center;
 }
 .pie-pagina .pie-pagina__grupo1 .pie-pagina__box1 figure .pie-pagina__logo img{
-    width: 250px;
-    padding-right: 7rem;
+    width: 400px;
+    padding-right: 8rem;
+    padding-top: 4rem;
 }
 .pie-pagina .pie-pagina__grupo1 .pie-pagina__box3 h2{
     margin-bottom: 20px;
@@ -158,6 +161,7 @@ background-color: rgb(245, 245, 245);
     text-decoration: none;
     font-size: 0.9rem;
     padding-top: 2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .fondocontacto p img{
     width: 100%;
@@ -213,7 +217,7 @@ p{
     margin-bottom: 100px;
 }
 .contacto__formulario{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: antipasto;
 }
 .titulocontacto{
     font-size: 2.2rem;
@@ -277,7 +281,7 @@ p{
 .trabajo__ame h1{
     font-size: 1.1rem;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
 }
 .tarjeta-img img{
@@ -287,7 +291,7 @@ p{
 .trabajo__tarjeta h2{
     font-size: 1.1rem;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
 }
 .etiquetas-img img{
@@ -297,7 +301,7 @@ p{
 .trabajo__etiquetas h3{
     font-size: 1.1rem;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
 }
 .main__trabajos{
@@ -308,9 +312,11 @@ p{
     padding-bottom: 20rem;
 }
 .main2{
-    display: grid;
-	grid-gap: 10px;
-	
+	display: grid;
+    grid-template-rows: 663px 241px 550px 590px;
+    gap: 15px;
+    grid-template-columns: 710px 1fr;
+    overflow: hidden;
 	
 }
 .main__servicios{
@@ -323,27 +329,29 @@ p{
     width: 580px;
     height: 600px;
     padding-top: 5rem;
-    margin-left: 200px;
+    margin-left: 100px;
 }
 .texto__servicios{
     display: flex;
-    padding-top: 15rem;
+    padding-top: 10rem;
     margin-right: 20px;
 }
 .linea__texto2{
     width: 100px;
-    height: 1px;
-    text-align: center;
-    margin-top: 42px;
+    height: 2px;
+    margin-top: 30px;
     background: black;
+    margin-left: 250px;
 }
 .texto__introduccion h1{
     font-family: arsenica trial;
     font-weight: normal;
     font-size: 3rem;
+    margin: 3rem;
+    text-align: center;
 }
 .texto__introduccion p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
     font-size: 1.2rem;
     text-align: center;
@@ -352,16 +360,19 @@ p{
 .frase{
     margin: auto;
     width: 100%;
-    background-color: beige;
+    background-color: rgb(250, 250, 236);
+    grid-column: span 3;
+    height: 260px
 }
 .frase__servicios p{
     text-align: center;
     font-family: arsenica trial;
     font-weight: normal;
-    font-size: 1.5rem;
-    padding-top: 2rem;
+    font-size: 2rem;
+    padding-top: 5rem;
     letter-spacing: 3px;
-    width: 411px
+    width: 80%;
+    padding-left: 110px;
 }
 .linea__frase{
     width: 100px;
@@ -369,22 +380,59 @@ p{
     text-align: center;
     background: black;
 }
+.branding__explicacion{
+    padding-top: 70px;
+}
 .branding__explicacion p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 45px;
+    margin-right: 50px;
 }
 .branding__explicacion h2{
     font-family: arsenica trial;
     font-weight: bold;
     font-size: 2rem;
 }
-.imagen__branding img{
-    width: 50%;
-    
+.branding{
+    display: contents
 }
-
+.imagen__branding img{
+    width: 80%; 
+}
+.redes{
+    display: flex;
+    grid-column: span 2;
+    flex-direction: row-reverse;
+    background-color: rgb(250, 250, 236) ;
+    width: 100%;
+}
+.redes__explicacion p{
+    font-size: 1rem;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-top: 20px;
+    margin-right: 100px;
+}
+.redes__explicacion h3{
+    font-family: arsenica trial;
+    font-weight: bold;
+    font-size: 2rem;
+    padding-top: 60px;
+}
+.imagen__redes img{
+    width: 100%; 
+    padding-top: 0px;
+    margin-right: 450px;
+}
+.redes__explicacion{
+    margin-left: 5rem;
+}
 
 
 
@@ -571,7 +619,7 @@ p{
     background: black;
 }
 .texto__introduccion p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
     font-size: 0.9rem;
     text-align: center;
@@ -604,7 +652,6 @@ p{
 .branding__explicacion p{
     font-size: 0.8rem;
     text-align: left;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: lighter;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 }
