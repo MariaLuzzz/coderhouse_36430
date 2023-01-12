@@ -313,7 +313,7 @@ p{
 }
 .main2{
 	display: grid;
-    grid-template-rows: 663px 241px 550px 590px;
+    grid-template-rows: 663px 285px 550px 610px 500px;
     gap: 15px;
     grid-template-columns: 710px 1fr;
     overflow: hidden;
@@ -362,23 +362,23 @@ p{
     width: 100%;
     background-color: rgb(250, 250, 236);
     grid-column: span 3;
-    height: 260px
+    height: 300px
 }
 .frase__servicios p{
     text-align: center;
     font-family: arsenica trial;
     font-weight: normal;
     font-size: 2rem;
-    padding-top: 5rem;
+    padding-top: 4.5rem;
     letter-spacing: 3px;
-    width: 80%;
-    padding-left: 110px;
+    width: 100%;
+    padding-left: 0px;
 }
 .linea__frase{
     width: 100px;
-    height: 1px;
-    text-align: center;
+    height: 2px;
     background: black;
+    margin-left: 650px;
 }
 .branding__explicacion{
     padding-top: 70px;
